@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="terms.css">
+        <link rel="stylesheet" href="footer_grid.css">
+        <title>The Leading Code Coverage Solution | codecov</title>
+        <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNDgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTI1LjAxNCAwQzExLjIzLjAxLjAxIDExLjE0OSAwIDI0LjgzMnYuMDYybDQuMjU0IDIuNDgyLjA1OC0uMDM5YTEyLjIzOCAxMi4yMzggMCAwIDEgOS4wNzgtMS45MjggMTEuODQ0IDExLjg0NCAwIDAgMSA1Ljk4IDIuOTc1bC43My42OC40MTMtLjkwNGMuNC0uODc0Ljg2Mi0xLjY5NiAxLjM3NC0yLjQ0My4yMDYtLjMuNDMzLS42MDQuNjkyLS45MjlsLjQyNy0uNTM1LS41MjYtLjQ0YTE3LjQ1IDE3LjQ1IDAgMCAwLTguMS0zLjc4MSAxNy44NTMgMTcuODUzIDAgMCAwLTguMzc1LjQ5YzIuMDIzLTguODY4IDkuODItMTUuMDUgMTkuMDI3LTE1LjA1NyA1LjE5NSAwIDEwLjA3OCAyLjAwNyAxMy43NTIgNS42NTIgMi42MTkgMi41OTggNC40MjIgNS44MzUgNS4yMjQgOS4zNzJhMTcuOTA4IDE3LjkwOCAwIDAgMC01LjIwOC0uNzlsLS4zMTgtLjAwMWExOC4wOTYgMTguMDk2IDAgMCAwLTIuMDY3LjE1M2wtLjA4Ny4wMTJjLS4zMDMuMDQtLjU3LjA4MS0uODEzLjEyNi0uMTE5LjAyLS4yMzcuMDQ1LS4zNTUuMDY4LS4yOC4wNTctLjU1NC4xMTktLjgxNi4xODVsLS4yODguMDczYy0uMzM2LjA5LS42NzUuMTkxLTEuMDA2LjNsLS4wNjEuMDJjLS43NC4yNTEtMS40NzguNTU4LTIuMTkuOTE0bC0uMDU3LjAyOWMtLjMxNi4xNTgtLjYzNi4zMzMtLjk3OC41MzRsLS4wNzUuMDQ1YTE2Ljk3IDE2Ljk3IDAgMCAwLTQuNDE0IDMuNzhsLS4xNTcuMTkxYy0uMzE3LjM5NC0uNTY3LjcyNy0uNzg3IDEuMDQ4LS4xODQuMjctLjM2OS41Ni0uNi45NDJsLS4xMjYuMjE3Yy0uMTg0LjMxOC0uMzQ4LjYyMi0uNDg3LjlsLS4wMzMuMDYxYy0uMzU0LjcxMS0uNjYxIDEuNDU1LS45MTcgMi4yMTRsLS4wMzYuMTExYTE3LjEzIDE3LjEzIDAgMCAwLS44NTUgNS42NDRsLjAwMy4yMzRhMjMuNTY1IDIzLjU2NSAwIDAgMCAuMDQzLjgyMmMuMDEuMTMuMDIzLjI1OS4wMzYuMzg4LjAxNS4xNTguMDM0LjMxNi4wNTMuNDcxbC4wMTEuMDg4LjAyOC4yMTRjLjAzNy4yNjQuMDguNTI1LjEzLjc4Ny41MDMgMi42MzcgMS43NiA1LjI3NCAzLjYzNSA3LjYyNWwuMDg1LjEwNi4wODctLjEwNGMuNzQ4LS44ODQgMi42MDMtMy42ODcgMi43Ni01LjM2OWwuMDAzLS4wMzEtLjAxNS0uMDI4YTExLjczNiAxMS43MzYgMCAwIDEtMS4zMzMtNS40MDdjMC02LjI4NCA0Ljk0LTExLjUwMiAxMS4yNDMtMTEuODhsLjQxNC0uMDE1YzIuNTYxLS4wNTggNS4wNjQuNjczIDcuMjMgMi4xMzZsLjA1OC4wMzkgNC4xOTctMi40NC4wNTUtLjAzM3YtLjA2MmMuMDA2LTYuNjMyLTIuNTkyLTEyLjg2NS03LjMxNC0xNy41NTFDMzcuOTcgMi41NzYgMzEuNjk1IDAgMjUuMDE0IDAiIGZpbGw9IiNGMDFGN0EiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==" type="image/icon type">
+    </head>
+    <body>
+        <div class="head_container">
+            <a href="/" ><img id="right_margin" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNDgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTI1LjAxNCAwQzExLjIzLjAxLjAxIDExLjE0OSAwIDI0LjgzMnYuMDYybDQuMjU0IDIuNDgyLjA1OC0uMDM5YTEyLjIzOCAxMi4yMzggMCAwIDEgOS4wNzgtMS45MjggMTEuODQ0IDExLjg0NCAwIDAgMSA1Ljk4IDIuOTc1bC43My42OC40MTMtLjkwNGMuNC0uODc0Ljg2Mi0xLjY5NiAxLjM3NC0yLjQ0My4yMDYtLjMuNDMzLS42MDQuNjkyLS45MjlsLjQyNy0uNTM1LS41MjYtLjQ0YTE3LjQ1IDE3LjQ1IDAgMCAwLTguMS0zLjc4MSAxNy44NTMgMTcuODUzIDAgMCAwLTguMzc1LjQ5YzIuMDIzLTguODY4IDkuODItMTUuMDUgMTkuMDI3LTE1LjA1NyA1LjE5NSAwIDEwLjA3OCAyLjAwNyAxMy43NTIgNS42NTIgMi42MTkgMi41OTggNC40MjIgNS44MzUgNS4yMjQgOS4zNzJhMTcuOTA4IDE3LjkwOCAwIDAgMC01LjIwOC0uNzlsLS4zMTgtLjAwMWExOC4wOTYgMTguMDk2IDAgMCAwLTIuMDY3LjE1M2wtLjA4Ny4wMTJjLS4zMDMuMDQtLjU3LjA4MS0uODEzLjEyNi0uMTE5LjAyLS4yMzcuMDQ1LS4zNTUuMDY4LS4yOC4wNTctLjU1NC4xMTktLjgxNi4xODVsLS4yODguMDczYy0uMzM2LjA5LS42NzUuMTkxLTEuMDA2LjNsLS4wNjEuMDJjLS43NC4yNTEtMS40NzguNTU4LTIuMTkuOTE0bC0uMDU3LjAyOWMtLjMxNi4xNTgtLjYzNi4zMzMtLjk3OC41MzRsLS4wNzUuMDQ1YTE2Ljk3IDE2Ljk3IDAgMCAwLTQuNDE0IDMuNzhsLS4xNTcuMTkxYy0uMzE3LjM5NC0uNTY3LjcyNy0uNzg3IDEuMDQ4LS4xODQuMjctLjM2OS41Ni0uNi45NDJsLS4xMjYuMjE3Yy0uMTg0LjMxOC0uMzQ4LjYyMi0uNDg3LjlsLS4wMzMuMDYxYy0uMzU0LjcxMS0uNjYxIDEuNDU1LS45MTcgMi4yMTRsLS4wMzYuMTExYTE3LjEzIDE3LjEzIDAgMCAwLS44NTUgNS42NDRsLjAwMy4yMzRhMjMuNTY1IDIzLjU2NSAwIDAgMCAuMDQzLjgyMmMuMDEuMTMuMDIzLjI1OS4wMzYuMzg4LjAxNS4xNTguMDM0LjMxNi4wNTMuNDcxbC4wMTEuMDg4LjAyOC4yMTRjLjAzNy4yNjQuMDguNTI1LjEzLjc4Ny41MDMgMi42MzcgMS43NiA1LjI3NCAzLjYzNSA3LjYyNWwuMDg1LjEwNi4wODctLjEwNGMuNzQ4LS44ODQgMi42MDMtMy42ODcgMi43Ni01LjM2OWwuMDAzLS4wMzEtLjAxNS0uMDI4YTExLjczNiAxMS43MzYgMCAwIDEtMS4zMzMtNS40MDdjMC02LjI4NCA0Ljk0LTExLjUwMiAxMS4yNDMtMTEuODhsLjQxNC0uMDE1YzIuNTYxLS4wNTggNS4wNjQuNjczIDcuMjMgMi4xMzZsLjA1OC4wMzkgNC4xOTctMi40NC4wNTUtLjAzM3YtLjA2MmMuMDA2LTYuNjMyLTIuNTkyLTEyLjg2NS03LjMxNC0xNy41NTFDMzcuOTcgMi41NzYgMzEuNjk1IDAgMjUuMDE0IDAiIGZpbGw9IiNGMDFGN0EiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==" alt="logo"/></a>
+            <a href="">Feature</a>
+            <a href="pricing_benefit.html" target="blank">Pricing</a>
+            <a href="">Docs</a>
+            <a href="">Blogs</a>
+            <a href="">students</a>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <a class="alignitems_end">Log In</a>
+            <a class="signup_box alignitems_end">Sign Up</a>
+        </div>
+        <div class="terms">
+            <h1>Terms of Use</h1>
+            <div class="terms_container">
+                <h3>v0.1.2 - effective April 24th, 2016 - History on GitHub</h3>
+                <p class="terms_text">Codecov LLC operating as Codecov at codecov.io website 
+                                     ("Services"). By accessing or using the Codecov website 
+                                     ("Codecov"/"Site"/"we"/"us"), you acknowledge and agree to the disclaimers,
+                                      terms and conditions set forth in this Agreement. By using the site or 
+                                      by subscribing for or purchasing any Codecov Service, 
+                                      you are agreeing to this Agreement. </p>
+                <h3>User Content</h3>
+                <p class="terms_text">"User Content" is defined as all information, data, text, messages or
+                                       other materials, uploaded, posted or transmitted to the Service by viewers or users. 
+                                       - Codecov will never sell, distribute or license User Content. 
+                                       - Codecov never stores or retains copies of repository source-code, exceptions to apply. 
+                                       - Source code may be included in uploaded coverage reports which are removed after 1 month of being archived.  </p>
+                <h3>Account Registration</h3>
+                <p>You must login through a Provider to complete the sign up process. </p>
+                <p>You are responsible for all Content posted by your account and all activity that occurs under your account. </p>
+                <p>You must have the authority to bind yourself to these Terms. 
+                    If you are registering for an account on behalf of a company or other legal entity,
+                     you represent and warrant that you have the authority to bind such entity, its affiliates,
+                      and all users who access our Services through such account to these Terms, 
+                      in which case the terms "you", "your" and “user” shall refer to such entity, 
+                      its affiliates, and users associated with it. </p>
+                <p class="terms_text">You may stop using our Services at any time by de-authorizing 
+                    Codecov from inside Providers. Upon request, we will make reasonable efforts to
+                     provide you with a copy of any data you may have created and to delete any remaining data 
+                     from our database and servers. </p>
+            </div>
+        </div>
+        <div class="extra_margin"></div> 
+        <div class="footer">
+            <div class="foot_content"> <h3>Have a question? Drop us a line.</h3>
+                   <button class="btn_footer"><a href="mailto:hello@codecov.io" target="blank">Email</a> </button>
+            </div>
+            <div class="footer_section">
+           <div class="sec_product">
+        
+               <ul>
+                   <li><a href="" id="product">Product</a></li>
+                   <li><a href="">Features</a></li>
+                   <li><a href="">Pricing</a></li>
+                   <li><a href="">Self-Hosted</a></li>
+        
+               </ul>
+           </div>
+           <div class="sec_help">
+        
+               <ul>
+                   <li><a href="" id="help">Help</a></li>
+                   <li><a href="">Documentation</a></li>
+                   <li><a href="">Support</a></li>
+                   <li><a href="">FAQ</a></li>
+                   <li><a href="">Blog</a></li>
+               </ul>
+           </div>
+        <div class="sec_legal">
+        
+               <ul>
+                   <li><a href="" id="legal">Legal</a></li>
+                   <li><a href="">Terms</a></li>
+                   <li><a href="">Privacy</a></li>
+                   <li><a href="">Security</a></li>
+                   <li><a href="">GDPR</a></li>
+                   <li><a href="">EULA</a></li>
+               </ul>
+           </div> 
+           <div class="sec_contact_us">
+        
+               <ul>
+                   <li><a href="" id="contactus" target="blank">Contact Us</a></li>
+                   <li><a href="https://twitter.com/codecov" target="blank"> Twitter</a></li>
+                   <li><a href="mailto:hello@codecov.io" target="blank">Email</a></li>
+                   <li><a href="https://github.com/codecov" target="blank">Github</a></li>
+                   <li><a href="https://angel.co/company/codecov" target="blank">Carrers</a></li>
+               </ul>
+           </div> 
+        <br>
+           <div class="copy_right"> <sup class="sup">&#169;</sup>  Codecov 2020 </div>
+        </div>
+           
+        </div> 
+           </div> 
+    </body>
+</html>  

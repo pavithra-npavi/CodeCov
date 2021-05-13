@@ -1,0 +1,21 @@
+.line_div_outerbox{
+    height: auto ;
+    width: 100%;
+    border: 1px solid black;
+    position: relative;
+    text-align: center;
+}
+
+ .starting>div{
+    height: auto;
+}
+
+body{
+    font-family:  Sailec,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+} 
+
+.starting{
+    position: absolute;
+    left: 30%;
+    top: 20%;
+}

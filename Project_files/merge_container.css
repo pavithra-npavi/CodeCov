@@ -1,0 +1,32 @@
+.merge_container{
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+   
+   
+}
+.merge_container > div{
+    flex-basis: 50%;
+    margin: 1%;
+    text-align: left;
+    font-size: 20px;
+}
+.merge_container > div > ul > img{
+    margin-right: 2%;
+}
+p{
+    font-size: 18px;
+    font-weight: 400px;
+}
+ul{
+    font-size: 18px;
+    line-height: 16px;
+   
+}
+.merge_container > div >a{
+   color: blue;
+   font-size: 18px;
+}
+.merge_container > div > img{
+    margin-left: 20px;
+ }

@@ -1,0 +1,145 @@
+.footer{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px; 
+    grid-template-rows:  100px 100px 100px 100px 100px;
+    grid-gap: 10px;
+    background-color:#0f1b29;
+    position: relative;
+}
+.foot_content{
+    grid-area: 1/6;
+    position:absolute;
+    background-color: #0f1b29;
+    text-align: center;
+    
+}
+.foot_content h3{
+    font-weight: bolder;
+    font-size: 18px;
+    color: #f7f8fb;
+    background-color: #0f1b29;
+    text-align: center;
+}
+.btn_footer {
+    border-radius: 30px;
+    width: 70px;
+    height: 40px;
+    font-size: larger;
+    
+    background-color: #0f1b29;
+    border: 1px solid blue;
+    color: blue;
+}
+.btn_footer :hover{
+    color: rgb(18, 18, 146);
+    
+}
+.btn_footer a{
+    color: blue;
+    
+}
+.footer_section{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px; 
+    grid-template-rows:100px 100px 100px 100px 100px 100px;
+    grid-gap: 10px;
+    background-color:#0f1b29;
+    position: relative;
+    background-color: #0f1b29;
+    position: relative;
+} 
+.sec_product{
+    grid-area: 3/3/3/5;
+    background-color: #0f1b29;
+    position: absolute;
+}
+
+.sec_product ul, li, a {
+    background-color: #0f1b29;
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 14px;
+    font-size:medium;
+}
+#product{
+    color: gray;
+    font-size: 14px;
+    background-color:  #0f1b29;
+    font-size:medium;
+}
+.sec_help{
+    grid-area: 3/5/3/7;
+    background-color: #0f1b29;
+    position: absolute;
+}
+.sec_help ul, li, a {
+    background-color: #0f1b29;
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 14px;
+    font-size:medium;
+}
+#help{
+    color: gray;
+    font-size: 14px;
+    background-color:  #0f1b29;
+    font-size:medium;
+}
+
+.sec_legal{
+    grid-area: 3/7/3/9;
+    background-color: #0f1b29;
+    position: absolute;
+}
+.sec_legal ul, li, a {
+    background-color: #0f1b29;
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 14px;
+    font-size:medium;
+}
+#legal{
+    color: gray;
+    font-size: 14px;
+    background-color:  #0f1b29;
+    font-size:medium;
+}
+.sec_contact_us{
+    grid-area: 3/9/3/11;
+    background-color: #0f1b29;
+    position: absolute;
+}
+.sec_contact_us ul, li, a {
+    background-color: #0f1b29;
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 14px;
+    font-size:medium;
+}
+#contactus{
+    color: gray;
+    font-size: 14px;
+    background-color:  #0f1b29;
+    font-size:medium;
+}
+.copy_right{
+    grid-area: 5/7/5/10;
+    background-color: #0f1b29;
+    position: absolute; 
+    color: gray;
+} 
+.sup{  
+    
+    margin-left: -20px;
+    background-color: #0f1b29;
+    position: absolute;
+    color: gray;
+}  

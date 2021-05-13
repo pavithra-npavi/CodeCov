@@ -1,0 +1,63 @@
+.head_container{
+    display: flex;
+    background-color: #0F1B29;
+    padding: 1%;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.head_container > div , a{
+    flex-basis: 5%;
+    color: #e2e6ea;
+    font-size: 16px;
+    margin-left: 1.5%;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.signup_box{
+    background-color: #0088e9;
+    border-radius:20px;
+    padding: 1%;
+    height: 25px;
+    width: 100px;
+    text-align: center;
+}
+.signup_box:hover {
+    background-color: #0071c2;
+    text-decoration: none;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .head_container{
+        display: flex;
+        background-color: #0F1B29;
+        padding: 1%;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .head_container > div , a{
+        flex-basis: unset;
+        color: #e2e6ea;
+        font-size: 16px;
+        margin-left: 1.5%;
+        font-weight: 500;
+        letter-spacing: 0;
+        line-height: 1.5;
+        text-decoration: none;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {} 

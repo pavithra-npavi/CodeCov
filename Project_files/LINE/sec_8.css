@@ -1,0 +1,81 @@
+.line_div_outerbox{
+    height: auto ;
+    width: 100%;
+    border: 1px solid white;
+    position: relative;
+    text-align: center;
+}
+h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+ .starting>div{
+    height: auto;
+    border: 1px solid white;
+}
+
+body{
+    font-family:  Sailec,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+    background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIyLjAuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IndhdmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAxNDY3LjUgMTk1LjUiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDE0NjcuNSAxOTUuNTsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtmaWxsOm5vbmU7c3Ryb2tlOiNGMDFGN0E7c3Ryb2tlLXdpZHRoOjI7fQoJLnN0MXtmaWxsOiNGMDFGN0E7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjM7fQo8L3N0eWxlPgo8cGF0aCBpZD0iUGF0aF8xXyIgY2xhc3M9InN0MCIgZD0iTTAsMWgzNy4zYzM3LjMsMCwxMTEuOCwwLDE4Ni40LDI5LjFjNzQuNSwyOC43LDE0OS4xLDc0LjUsMjIzLjYsMTA5LjEKCWM3NC41LDM1LjIsMTQ5LjEsNDYuMSwyMjMuNiw1Mi4zYzc0LjUsNS44LDE0OS4xLDUuOCwyMjMuNi0yMy4zYzc0LjUtMjguNywxNDkuMS04Ny41LDIyMy42LTEwNC42Yzc0LjUtMTcuOCwxNDkuMSw2LjIsMjIzLjYtNS44CgljNDEuOC02LjcsODMuNi0yNC4xLDEyNS41LTM5LjIiLz4KPGNpcmNsZSBpZD0iT3ZhbC0yLUNvcHktMiIgY2xhc3M9InN0MSIgY3g9IjEyMjgiIGN5PSI1OCIgcj0iOSIvPgo8Y2lyY2xlIGlkPSJPdmFsLTItQ29weSIgY2xhc3M9InN0MSIgY3g9IjQwMiIgY3k9IjExNiIgcj0iOSIvPgo8L3N2Zz4K");
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    background-attachment: fixed;
+    background-position: center;
+    justify-content: center;
+    object-fit: cover;
+} 
+
+/* .starting{
+    position: absolute;
+    left: 30%; 
+} */
+
+#get_started_now_button{
+    width: 200px;
+    height: 48px;
+    padding: 0 19px;
+    background-color:#0088E9 ;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border-radius: 24px 24px;
+    text-align: center;
+    position: fixed;
+    bottom: 220px;
+    right: 45%;
+    margin: auto auto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 52px;
+}
+
+/* .starting>div>p{
+    margin: auto 24px;
+} */
+
+.empty{
+    margin-top:20px ;
+    margin-bottom:40px ;
+    /* border: black 1px dotted; */
+}
+
+
+p{
+    letter-spacing: 3px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.worldwide{
+    position:absolute;
+    left: 31%;
+    top:250%;
+}
+
+.we_have{
+    position:absolute;
+    left: 34%;
+    top: 160%;
+}
+

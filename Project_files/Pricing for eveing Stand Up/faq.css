@@ -1,0 +1,112 @@
+
+    .faq_container{
+        display: grid;
+            grid-template-columns: auto auto auto auto auto auto auto ;
+            grid-template-rows: auto auto auto auto auto auto auto auto ;
+            grid-gap: 10px;
+            margin-top: 100px;
+            
+    }
+    h5 {
+        margin-left: 20px;
+        font-family: Sailec,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+        color: gray;
+
+    }
+   .img_price{
+        width: 20px;
+        height: 20px;
+        margin-left: 300px;
+        background: transparent;
+        border-radius: 15px;
+    }
+    .faq_container >div{
+        background-color:#f7f8fb;
+        margin-left: 400px;
+        margin-right: 400px;
+        
+    }
+    #div1{
+        grid-area: 1/1/1/9;
+    
+    }
+    #div2{
+        grid-area: 2/1/2/9;
+    }
+    #div3{
+        grid-area: 3/1/3/9;
+    }
+    #div4{
+        grid-area: 4/1/4/9;
+    }
+    #div5{
+        grid-area: 6/1/6/9;
+    }
+    #div6{
+        grid-area: 8/1/8/9;
+    }
+    #pimg1{
+        margin-left: 590px;
+    }
+    #pimg2{
+        margin-left: 590px;
+    }
+
+    #pimg3{
+        margin-left: 590px;
+        
+    }
+    #pimg4{
+        margin-left: 590px;
+    }
+    #pimg5{
+        margin-left: 590px;
+    }
+    #pimg6{
+        margin-left: 590px;
+    }
+    .hidden{
+        display: none;
+    }
+    .visible{
+        display: block;
+    }
+    /* .div1_view{
+        grid-area: 9/9/9/9;
+    } */
+   h4, p{
+        text-align: justify;
+        background-color:#f7f8fb;
+    }
+    h3{
+        text-align: center;
+    }
+    .contact_us_line{
+        text-align: center;
+        margin:20px;
+        font-size: 12px;
+    }
+    #blue_contact
+    {
+        font-weight: bold;
+        color: #0095FF;
+    }
+
+    @media only screen and (max-width: 760px) {
+
+        .faq_container >div{
+            background-color:#f7f8fb;
+            margin-left: 0px;
+            margin-right: 0px;
+            max-width: 700px;
+        }
+        #pimg3{
+            
+            position: absolute;
+            top:20%;
+            left: 60%;      
+        }
+        .contact_us_line{
+            font-size: 5px;
+        }
+    }

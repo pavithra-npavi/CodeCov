@@ -1,0 +1,160 @@
+*{
+    font-family : Sailec,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+    
+}
+.page_container{
+    background-color: rgb(232, 236, 238,0.2);
+}
+.extra_margin{
+    height: 100px;
+    background-color: rgb(232, 236, 238,0.2);
+}
+h3{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 4%;
+    line-height: 28px;
+    letter-spacing: -.0025em;
+}
+.small_font_sze{
+  font-size: 20px;
+  margin-bottom: 16px;
+  margin-top: 24px;
+}
+
+
+/* icons for first line */
+
+
+.icons_container_1{
+    display: flex;
+    margin: 2%;
+    justify-content: center;
+   
+}
+
+.icons_container_1 > div{
+    flex-basis: 10%;
+    height: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
+   
+}
+#axas{
+    width:50px;
+    height: 50px;
+    margin-left: 40px;
+}
+
+.icons_container_1 > div > img{
+    filter: grayscale(100%);
+    width: 100%;
+    height: 100%;
+}
+.aliceblue{
+    background-color: rgb(232, 236, 238,0.2)
+}
+
+/* icons for second line */
+
+.icons_container_2{
+    display: flex;
+    margin: 2%;
+    justify-content: center;
+   align-items: center;
+
+}
+
+.icons_container_2 > div{
+    flex-basis: 10%;
+    height: 1%;
+    margin: 1%;
+   
+}
+
+.icons_container_2 > div > img{
+    filter: grayscale(100%);
+    width: 100%;
+    height: 100%;
+}
+#washington{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+#tile{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+
+/* icons for third line */
+
+.icons_container_3{
+    display: flex;
+    margin: 2%;
+    justify-content: center;
+   
+}
+.icons_container_3 > div{
+    flex-basis: 10%;
+    height: 1%;
+    margin: 1%;
+}
+
+.icons_container_3 > div > img{
+    filter: grayscale(100%);
+    width: 100%;
+    height: 100%;
+}
+.image_fitter{
+    filter: grayscale(100%);
+    width: 100%;
+    height: 100%;
+}
+
+#ansible{
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
+}
+
+
+
+
+/* icons 4th line */
+
+.icons_container_4{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1%;
+    justify-content: center;
+}
+.icons_container_4 > div{
+    flex-basis: 8%;
+    height: 10%;
+    margin: 1%;
+    padding: 2%;
+    text-align: center;
+    
+}
+.icons_container_4 > div > img{
+    filter: grayscale(100%);
+    width: 100%;
+    height: 100%;
+}
+
+#vim{
+    height: 50px;
+    width: 50px;
+}
+#huggy{
+    height: 60px;
+    width: 60px;
+    margin-left: 60px;
+}
+
+
+

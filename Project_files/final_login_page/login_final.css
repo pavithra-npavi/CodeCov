@@ -1,0 +1,308 @@
+.head_container{
+    display: flex;
+    background-color: rgb(12, 12, 43);
+    padding: 1%;
+    align-items: center;
+}
+.head_container > div{
+    flex-basis: 5%;
+    color: white;
+    font-size : 20px;
+    margin-left: 1%;
+    
+}
+
+.signup_box{
+    background-color: blue;
+    border-radius:20px;
+    padding: 1%;
+    height: 25px;
+    width: 100px
+}
+
+.outerbox{
+    display: flex;
+    height: 200px;
+    width: 40%; 
+    margin-left: 30px;
+    border: 1px dotted black;
+}
+
+.outerbox>div{
+    display: flex;
+    height: 200px;
+    flex-basis: 40%;
+    /* justify-content: space-between;  */
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px dotted black;
+}
+
+.blank{
+    height: 100px;
+}
+
+.login_container{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 70%; 
+    /* border: 1px dotted black; */
+    margin: auto;
+    justify-content: center;
+}
+
+.login_container>div{
+    height: 200px;
+    width: 33% ;
+    min-width: 200px;
+    border: 1px solid #c7cbd1;
+    margin-left: 20px;
+    margin-right: 20px; 
+    border-radius: 24px;
+}
+
+.inner_button{
+    height: 20%;
+    width: 100%;   
+    text-align: center;
+    cursor: pointer;
+    border-bottom-left-radius:24px;
+    border-bottom-right-radius:24px;
+    border: none;
+}
+
+.for_image{
+    height: 80%;
+    width: 100%;
+    text-align: center;
+    border: none;
+}
+
+.outer_container{
+    display: inline-block;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+}
+
+#image{
+    width: 70%;
+    height: 70%;
+    margin-top: 5% ;
+}
+
+#black{
+    background-color: #161614;
+    color: white;
+    font-family: Sailec,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+}
+
+#blue{
+    background-color: #205081;
+    color: white;
+    font-family: Sailec,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+}
+
+#orange{
+    background-color: #e24329;
+    color: white;
+    font-family: Sailec,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+}
+.cookies{
+    width: 70%;
+    margin: 5% auto;
+    font-family: Sailec,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+    border-top: 1px solid #c7cbd1;
+    border-bottom: 1px solid #c7cbd1;
+    text-align: center;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 760px) {
+    .login_container{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 70%; 
+        /* border: 1px dotted black; */
+        margin: auto;
+        justify-content: center;
+    }
+
+    .login_container>div{
+        height: 200px;
+        width: 33% ;
+        min-width: 200px;
+        border: 1px solid #c7cbd1; 
+        border-radius: 24px;
+        margin: 10px auto;
+    }
+
+    .outer_container{
+        display: inline-block;
+        /* flex-direction: column; */
+        width: 100%;
+        height: auto;
+        }
+    
+}  
+
+
+/* body {
+  margin: 0;
+  padding: 0;
+  font-family:Sailec,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+   background-color: #0f1b29;
+}  */
+
+.btn_footer {
+    border-radius: 30px;
+    width: 70px;
+    height: 40px;
+    font-size: larger;
+    background-color: #0f1b29;
+    border: 1px solid #0088E9;
+    color: #0088E9;
+}
+.btn_footer :hover{
+    color: rgb(18, 18, 146);
+}
+.btn_footer a{
+    color: #0088e9;
+    text-decoration: none;
+}
+.dummy_page {
+  height: 200px;
+  width: 100%;
+  background-color: #0f1b29;
+  color: #f7f8fb;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 60px 0px;
+}
+/* STYLES SPECIFIC TO FOOTER  */
+ .footer {
+  width: 100%;
+  position: relative;
+  height: auto;
+   background-color: #0f1b29;
+}
+.footer .col {
+  width: 250px;
+  height: auto;
+  margin-left: 40px;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0px 20px 20px 20px;
+}
+.footer .col h1 {
+  margin: 0;
+  padding: 0;
+  font-family: Sailec,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 20px 0px 5px 0px;
+  color: rgba(255,255,255,0.2);
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.250em;
+}
+.footer .col ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+.footer .col ul li {
+    color: #f7f8fb;
+  font-size: 14px;
+  font-family: Sailec,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  list-style-type: none;
+}
+.contain li a{
+    color: #f7f8fb;
+    list-style: none;
+    text-decoration: none;
+
+}
+.col h1{
+  text-align: left;
+}
+.footer .col ul li:hover {
+    color: #f7f8fb;
+  transition: .1s;
+  -webkit-transition: .1s;
+  -moz-transition: .1s;
+}
+.clearfix {
+  clear: both;
+}
+.copy{
+    margin-top: 230px;
+    padding:  750px;
+    background-color: #0f1b29;
+    position: absolute; 
+    color: gray;
+} 
+.sup{  
+    
+    margin-left: -20px;
+    background-color: #0f1b29;
+    position: absolute;
+    color: gray;
+}  
+
+@media only screen and (min-width: 1280px) {
+  .contain {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 1139px) {
+  .contain .social {
+    width: 1000px;
+    display: block;
+  }
+  .social h1 {
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .footer .col {
+    width: 33%;
+  }
+  .footer .col h1 {
+    font-size: 14px;
+  }
+  .footer .col ul li {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 500px) {
+    .footer .col {
+      width: 50%;
+    }
+    .footer .col h1 {
+      font-size: 14px;
+    }
+    .footer .col ul li {
+      font-size: 13px;
+    }
+}
+@media only screen and (max-width: 340px) {
+  .footer .col {
+    width: 100%;
+  }
+} 

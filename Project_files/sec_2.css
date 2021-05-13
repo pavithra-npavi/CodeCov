@@ -1,0 +1,35 @@
+
+.intro{
+    display: flex;
+    height: auto;
+    width: 100%;
+    flex-direction: row ;
+    justify-content: center;
+    background-color: rgb(232, 236, 238,0.3);
+}
+
+h1{
+    font-weight: 1000;
+}
+
+.intro>div{   
+    margin: auto auto;
+    height: auto;
+    
+}
+
+.get_button{
+    margin-top: 10px;
+    background-color: #0088e9;
+    color: #fff;
+    border-radius: 24px;
+    width: 120px;
+    cursor: pointer;
+    height: 48px;
+    border: none;
+}
+
+.laptop_img{
+    background-color: aliceblue;
+}
+
